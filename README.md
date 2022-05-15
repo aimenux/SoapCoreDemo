@@ -1,3 +1,5 @@
+[![.NET](https://github.com/aimenux/SoapCoreDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/aimenux/SoapCoreDemo/actions/workflows/ci.yml)
+
 # SoapCoreDemo
 ```
 Creating soap web service using SoapCore
