@@ -7,5 +7,5 @@ namespace WebApi.Services;
 public interface ISoapService
 {
     [OperationContract]
-    string Process(SoapModel model);
+    string Run(SoapModel model);
 }

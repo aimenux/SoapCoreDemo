@@ -4,7 +4,7 @@ namespace WebApi.Services;
 
 public class SoapService : ISoapService
 {
-    public string Process(SoapModel model)
+    public string Run(SoapModel model)
     {
         return $"Hello {model.Name}";
     }

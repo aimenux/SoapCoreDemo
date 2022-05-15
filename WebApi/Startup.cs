@@ -1,13 +1,11 @@
 ﻿using SoapCore;
 using WebApi.Services;
+using static WebApi.Constants;
 
 namespace WebApi;
 
 public class Startup
 {
-    private const string SvcName = "SoapService.svc";
-    private const string AsmxName = "SoapService.asmx";
-
     public void ConfigureServices(WebApplicationBuilder builder)
     {
         builder.Services.AddSoapCore();
